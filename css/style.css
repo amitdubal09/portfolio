@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.OP{
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+span{
+    color: red;
+}
+.first .super{
+    display: block;
+    justify-content: center;
+
+}
+.first {
+   font-size: 20px;
+   margin: 15px;
+   justify-content: center;
+   margin-top: 50px;
+}
+
+.education{
+    font-size: 20px;
+    margin: 15px;
+    justify-content: center;
+}
+
+.tag{
+    color: red;
+}
+
+.certificate {
+    display: inline-block;
+    background: rgb(243, 8, 8);
+    padding: 10px 18px;
+    text-decoration: none;
+    color: white;
+    margin: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.certificate:hover{
+    background-color: #ef0202;
+    transform: scale(1.1);
+}
+
+.social {
+    width: 50px;
+}
+
+.navbar{
+    background-color: transparent;
+    padding-right: 15px;
+    padding-left: 20px;
+}
+
+.navdiv{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px;
+}
+
+.logo a{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+li a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: black;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+li a:hover{
+    color: white ;
+    transform: scale(1.1);
+}
+div img {
+    width: 30px;
+}
+
+.logo2{
+    width: 50px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+.logos{
+    margin: 10px;
+}
+
+.img-box{
+    width: 40%;
+    position:absolute;
+    bottom: 0;
+    right: 100px;
+    
+}
